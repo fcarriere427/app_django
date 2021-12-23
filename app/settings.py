@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'app.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': '/var/lib/polls/db/opt',
+        'NAME': '/var/lib/polls/db.opt',
         'USER': 'root',
         'PASSWORD': 'LaViergeAuDodge51&'
     }
